@@ -1,0 +1,19 @@
+{
+  "name": "bitwarden-cli-commonjs-repack",
+  "version": "0.1.0",
+  "description": "Exports the Bitwarden CLI Main class by rewriting the @bitwarden/cli build",
+  "main": "lib/index.js",
+  "repository": "https://github.com/pyrosec/bitwarden-cli-commonjs-repack",
+  "scripts": {
+    "repack": "cross-env node scripts/repack"
+  },
+  "author": "pyrosec",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@bitwarden/cli": "^2023.4.0",
+    "cross-env": "^7.0.3",
+    "fs-extra": "^11.1.1",
+    "mkdirp": "^3.0.1"
+  }
+}
